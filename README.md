@@ -2,7 +2,7 @@
 CRUD app using React,Express and  MongoDB Atlas
 </h1>
 
-<h3>How to run</h3> <br>
+<h3>How to run</h3>
 
 <h4>
 <b> Step 1: </b> <br>
