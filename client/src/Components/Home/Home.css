@@ -1,0 +1,141 @@
+.home-page {
+  justify-self: center;
+}
+
+#product-form {
+  display: grid;
+}
+
+#product-form input,
+#product-form button {
+  justify-self: center;
+}
+
+.product-table {
+  background: rgb(53, 64, 73);
+  border: 1px solid black;
+}
+
+.product-table {
+  padding: 10px;
+}
+
+td,
+th {
+  padding: 10px;
+}
+
+.styled-input {
+  padding: 5px;
+  outline: none;
+  border: 1px solid rgb(0, 101, 202);
+  color: white;
+  border-radius: 5px;
+  background: transparent;
+  margin-bottom: 10px;
+}
+
+.delete-button {
+  border: none;
+  outline: none;
+  background: rgb(199, 55, 67);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.delete-button:hover {
+  cursor: pointer;
+  background: rgb(250, 86, 100);
+}
+
+.logout-btn {
+  border: none;
+  outline: none;
+  background: dodgerblue;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+.logout-btn:hover {
+  cursor: pointer;
+  background: rgb(108, 180, 252);
+}
+
+.submit-btn {
+  border: none;
+  outline: none;
+  background: rgb(2, 194, 130);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+  margin-top: 10px;
+}
+
+.submit-btn:hover {
+  cursor: pointer;
+  background: rgb(70, 226, 174);
+}
+
+input[type="checkbox"] {
+  width: 16px;
+  height: 16px;
+}
+
+.top-bar {
+  padding: 15px;
+}
+
+.top-bar {
+  display: grid;
+}
+.top-bar button {
+  justify-self: end;
+  border-radius: 20px;
+  padding: 0px;
+  padding-top: 5px;
+  padding-left: 10px;
+  padding-bottom: 5px;
+  padding-right: 10px;
+}
+
+.controls {
+  margin-bottom: 15px;
+}
+
+.delete-button {
+  align-self: start;
+  justify-self: center;
+}
+
+.table-controls button {
+  margin-bottom: 15px;
+}
+
+.modal-container {
+  position: absolute;
+  width: 100vw;
+  height: 100vh;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+}
+
+.edit-modal {
+  margin: auto;
+  background: rgb(36, 36, 36);
+  color: white;
+  padding: 20px;
+  display: grid;
+}
+
+#update-form {
+  display: grid;
+}
+
+.close-btn {
+  width: 100%;
+}
