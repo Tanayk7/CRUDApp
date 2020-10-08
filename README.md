@@ -8,9 +8,9 @@ CRUD app using React,Express and  MongoDB Atlas
 <b> Step 1: </b> <br>
 Run the following <br>
 
--cd client && npm install <br>
--cd server && npm install <br>
--touch .env (in server directory) <br><br>
+cd client && npm install <br>
+cd server && npm install <br>
+touch .env (in server directory) <br><br>
 
 <b> Step 2: </b>  
 Create the following variables in .env <br>
@@ -21,7 +21,7 @@ DB_PASSWORD='your mongodb atlas password' <br><br>
 <b> Step 3: </b>
 Run the following <br>
 
--npm start (In Server Directory)
--npm start (In Client Directory)
+npm start (In Server Directory)
+npm start (In Client Directory)
 
 </h4>
