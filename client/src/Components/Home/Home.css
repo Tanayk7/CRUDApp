@@ -2,6 +2,13 @@
   justify-self: center;
 }
 
+.app-title {
+  color: white;
+  font-weight: bold;
+  font-size: 35px;
+  letter-spacing: 2px;
+}
+
 #product-form {
   display: grid;
 }
@@ -138,4 +145,18 @@ input[type="checkbox"] {
 
 .close-btn {
   width: 100%;
+}
+
+.edit-button {
+  background: gray;
+  color: white;
+  padding: 5px;
+  border-radius: 5px;
+  border: none;
+  outline: none;
+}
+
+.edit-button:hover {
+  cursor: pointer;
+  background: whitesmoke;
 }

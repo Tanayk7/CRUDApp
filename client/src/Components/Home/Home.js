@@ -141,6 +141,7 @@ const Home = (props) => {
   return (
     <div className="home-page">
       <div className="top-bar">
+        <div className="app-title">CRUD APP</div>
         <button onClick={logoutHandler} className="logout-btn">
           Logout
         </button>
@@ -204,14 +205,14 @@ const Home = (props) => {
       <table className="product-table">
         <thead>
           <tr>
-            <th>Select </th>
+            <th>Select</th>
             <th>Product Name</th>
             <th>Product Category</th>
             <th>Product Price</th>
             <th>Product Size</th>
             <th>Product Stock</th>
             <th>Product Decsription</th>
-            <th>Update </th>
+            <th>Update</th>
           </tr>
         </thead>
         <tbody>
@@ -231,7 +232,9 @@ const Home = (props) => {
               <td>{product.stock}</td>
               <td>{product.description} </td>
               <td>
-                <button onClick={modalOpen}>Edit</button>
+                <button className="edit-button" onClick={modalOpen}>
+                  Edit
+                </button>
               </td>
             </tr>
           ))}
